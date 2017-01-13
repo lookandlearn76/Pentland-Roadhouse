@@ -1,0 +1,654 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\000035}}
+html, body {
+  height: 100%;
+  width: 100%;
+  outline: 0px;
+  border: 0px;
+  padding: 0px;
+  transition: all 1s ease-in;
+  background-color: black;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000318}}
+#bs.nav-nav-demo {
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000322}}
+button.navbar-toggle.collapsed {
+  margin-top: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000326}}
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  color: #fff;
+  max-width: 100%;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000335}}
+p {
+  text-align: left;
+  font-size: 1.90em;
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000342}}
+.navbar-brand {
+  margin-bottom: 15px;
+  padding: 10px;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000348}}
+.nav-navbar-nav {
+  position: fixed;
+  width: 75%;
+  height: 50px;
+  color: #6e0000;
+  text-align: center;
+  background-color: black;
+  z-index: 99;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000362}}
+.navbar-inverse {
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000365}}
+.navbar-fixed-top {
+  background-color: black;
+}
+
+@media (min-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000370}}
+  .navbar.navbar-inverse .nav {
+    margin: auto;
+    display: flex;
+    width: 85%;
+    background-color: black;
+  }
+}
+@media (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000380}}
+  .col-sm-12 {
+    margin-left: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000385}}
+.navbar-header {
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000392}}
+.nav {
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000396}}
+.collaps-navbar-collapse {
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\0000399}}
+.navbar.navbar-inverse .nav > li {
+  max-width: 100%;
+  float: center;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003111}}
+.navbar.navbar-inverse nav > li > a {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003122}}
+a {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  color: #6e0000;
+  max-width: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003132}}
+.carousel-pentland {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003138}}
+#findSection {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003146}}
+.section {
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003166}}
+.about1 {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003176}}
+#aboutSection {
+  height: auto;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003182}}
+.about2 {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003202}}
+.headline {
+  width: 100%;
+  color: white;
+  top: 50px;
+  left: 15px;
+  margin-bottom: 0;
+  opacity: 1;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003214}}
+.margin1 {
+  position: relative;
+  top: 10px;
+  left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003220}}
+.aboutText {
+  position: relative;
+  max-width: 100%;
+  padding: 20px;
+  color: white;
+  top: 70px;
+  left: 3px;
+  border: 2px solid white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003231}}
+.drinkText {
+  position: relative;
+  max-width: 100%;
+  padding: 20px;
+  color: white;
+  top: 60px;
+  left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003240}}
+.titles {
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003252}}
+.titles2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: relative;
+  bottom: -80px;
+  left: 10px;
+  opacity: 0.80;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003270}}
+#peek1 {
+  top: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003274}}
+#peekSection {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003278}}
+.thumbnail {
+  opacity: 0;
+  position: relative;
+  margin-top: 10px;
+  max-width: 100%;
+  padding-top: 0px;
+  top: 60px;
+  left: 5px;
+  bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003294}}
+.thumbnail2 {
+  opacity: 1;
+  border: 3px solid white;
+  position: relative;
+  max-width: 100%;
+  padding-top: 0px;
+  top: 80px;
+  left: 0;
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003312}}
+img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003317}}
+iframe {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  max-width: 98%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003324}}
+.timing1 {
+  animation-delay: .5s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003325}}
+.timing2 {
+  animation-delay: 1s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003326}}
+.timing3 {
+  animation-delay: 1.5s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003327}}
+.timing4 {
+  animation-delay: 2s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003328}}
+.timing5 {
+  animation-delay: 2.5s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003329}}
+.timing6 {
+  animation-delay: 3s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003331}}
+#drinkSection {
+  background-size: cover;
+  background-image: url("../images/PentlandTaps1.jpg");
+  height: auto;
+  overflow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003340}}
+.subsect {
+  height: 50%;
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003345}}
+.games {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003356}}
+#drinkSection h1 {
+  background: rgba(255, 255, 255, 0.55);
+  color: black;
+  bottom: -20px;
+  left: 60px;
+  width: 50%;
+  position: relative;
+  padding: 5px;
+  margin: auto;
+  margin-right: auto;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003374}}
+#roomhireSection h2 {
+  background: rgba(255, 255, 255, 0.55);
+  color: black;
+  bottom: 40px;
+  left: 10px;
+  max-width: 100%;
+  position: absolute;
+  padding: 5px;
+  margin: auto;
+  margin-right: auto;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003387}}
+#roomhireSection {
+  height: auto;
+  background-image: url("../images/Event-Room1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003397}}
+.module {
+  top: 80%;
+  left: 35%;
+  margin: auto;
+  width: 430px;
+  height: 150px;
+  background-size: cover;
+  float: left;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003409}}
+.carousel, .item, .active {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003415}}
+.carousel-inner {
+  min-width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  margin: auto;
+  background-position: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003423}}
+.carousel-indicators {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003427}}
+.row {
+  margin: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003435}}
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  margin: auto;
+  overflow-y: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003445}}
+.container {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003451}}
+.carousel .left.carousel-control .right.carousel-control {
+  height: 100%;
+}
+
+/* fade on slider */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003455}}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003462}}
+.carousel-fade .carousel-inner .active {
+  opacity: 1 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003465}}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003471}}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003475}}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003480}}
+#menu1 {
+  background: url("../images/starter1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003498}}
+#dessertSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/dessert1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003512}}
+#baguetteSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/wrap1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003525}}
+#kidsSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/kidsmeal1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003538}}
+#starterSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003551}}
+#breakfastSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/breakfast1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003564}}
+#mainSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/fishnchips.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003576}}
+#burgerSection {
+  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+  background-image: url("../images/burgerpic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  text-shadow: 0px 1px 1px #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003590}}
+.menu-body {
+  width: 700px;
+  max-width: 90%;
+  margin: 70px auto;
+  display: block;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003599}}
+.menu-section {
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003604}}
+.menu-section-title {
+  top: 0px;
+  font-family: georgia;
+  font-size: 3.0em;
+  display: block;
+  font-weight: normal;
+  margin: 120px 0 0 0;
+  justify-content: center;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003618}}
+.menu-item {
+  max-width: 98%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003625}}
+.menu-item-name {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted #d5d5d5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003632}}
+.menu-item-description {
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003639}}
+.menu-item-price {
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -25px;
+}
+
+/*#thumb4{
+margin-right: 10%;
+}*/
+/*Large desktops and laptops*/
+/*Landscape tablets and medium desktops*/
+/* Portrait tablets and small desktops*/
+/*Landscape phones and portrait tablets*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Pentland-Roadhouse\/Sass\/Pentland\.scss}line{font-family:\00003713}}
+.container {
+  overflow-y: none;
+  overflow-x: none;
+  background-color: black;
+}
+
+/*# sourceMappingURL=Pentland.css.map */

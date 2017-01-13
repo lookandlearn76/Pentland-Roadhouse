@@ -1,0 +1,734 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width:100%;
+	outline:0px;
+	border:0px;
+	padding:0px;
+	transition: all 1s ease-in;
+	background-color: black;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Quicksand', sans-serif;
+	opacity: 1;
+}
+
+#bs.nav-nav-demo {
+	background-color: black;
+}
+
+button.navbar-toggle.collapsed {
+	margin-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: center;
+	font-size: 1em;
+	margin: auto;
+	color: #fff;
+	max-width: 100%;
+	text-shadow: 0px 1px 1px #000;
+}
+
+p {
+	text-align: left;
+	font-size: 1.90em;
+//	margin: auto;
+	opacity: 1;
+}
+
+.navbar-brand {
+	margin-bottom: 15px;
+	padding: 10px;
+	float: left;
+}
+
+.nav-navbar-nav {
+position: fixed;
+width: 75%;
+height: 50px;
+color: rgb(110,0,0);
+text-align: center;
+background-color: black;//rgba(110,0,0,.5);
+z-index: 99;
+margin-left: auto;
+margin-right: auto;
+//float: right;
+opacity: 1;
+}
+
+.navbar-inverse {
+	background-color: black;
+}
+.navbar-fixed-top {
+	background-color: black;
+}
+
+@media (min-width: 767px) {
+	.navbar.navbar-inverse .nav {
+		margin: auto;
+		display: flex;
+		width: 85%;
+		//float: right;
+		background-color: black;
+	}
+}
+
+@media (max-width: 500px) {
+ 	.col-sm-12 {
+		margin-left: 20px;
+	}
+}
+
+.navbar-header {
+ max-width: 100%;
+ text-align: center;
+ vertical-align: middle;
+ background-color: black;
+}
+
+.nav {
+	background-color: black;
+}
+
+.collaps-navbar-collapse {
+	background-color: black;
+}
+.navbar.navbar-inverse .nav > li {
+	max-width: 100%;
+	float: center;
+	display: flex;
+	text-align: center;
+	margin: auto;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	top: 10px;
+}
+
+.navbar.navbar-inverse nav > li > a {
+	max-width: 100%;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+//.col-sm-12 {
+//	margin-left: 10px;
+//}
+
+
+a {
+	text-decoration: none;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: black;
+	color: rgb(110,0,0);
+	max-width: 150px;
+}
+
+.carousel-pentland {
+	width: 100%;
+	height:100%;
+	background-size: cover;
+}
+
+#findSection {
+	height: auto;
+}
+
+//.container {
+//	margin: auto;
+//}
+
+.section {
+	min-height: 100%;
+	width:100%;
+	margin: 0 auto 0 auto;
+	position: relative;
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: none;
+}
+
+
+//.subsect {
+//	position: relative;
+//	height: 50%;
+//	background-color: white;
+//}
+
+.about1 {
+	//display: block;
+	//position: relative;
+	float: left;
+	//top: 70px;
+	//opacity: 1;
+//	color: white;
+//	max-width: 100%;
+}
+
+#aboutSection {
+	//float: none;
+	height: auto;
+	width: 100%;
+}
+
+.about2 {
+//	max-width: 100%;
+//	position: relative;
+	//top: 70px;
+	//left: 30px;
+	float: right;
+//	background-color: pink;
+	//position: relative;
+//	top: 70px;
+	//opacity: 1;
+//	color: white;
+//	max-width: 90%;
+//	word-wrap: normal;
+}
+
+//.cleared {
+//	height: 10px;
+//	clear:both;
+//}
+
+.headline {
+	width: 100%;
+	color: white;
+	top: 50px;
+	left: 15px;
+	margin-bottom: 0;
+	opacity: 1;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+
+.margin1 {
+	position: relative;
+	top: 10px;
+	left: 0px;
+}
+
+.aboutText {
+	position:relative;
+	max-width: 100%;
+	padding: 20px;
+	color: white;
+	top: 70px;
+	left: 3px;
+	border: 2px solid white;
+	//margin-bottom: 70px;
+}
+
+.drinkText {
+	position:relative;
+	max-width: 100%;
+	padding: 20px;
+	color: white;
+	top:60px;
+	left: 10px;
+}
+
+.titles {
+	//margin: auto;
+	background-color: black;
+//	background-size: contain;
+	text-align: center;
+	color: white;
+	position: relative;
+	margin-bottom: 30px;
+	opacity: 0;
+}
+
+
+.titles2 {
+	background-color: black;
+	color: white;
+	width: 100%;
+	position: relative;
+	bottom: -80px;
+	left: 10px;
+	opacity: 0.80;
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+}
+
+
+
+//div .col {
+//	margin:auto;
+//}
+#peek1 {
+	top: 20px
+}
+
+#peekSection {
+	height: auto;
+}
+
+.thumbnail {
+	//float: left;
+	opacity: 0;
+	position: relative;
+	margin-top: 10px;
+	max-width: 100%;
+	//margin-bottom: 50px;
+	//padding-left: 30px;
+	//margin-left: -20px;
+	padding-top:0px;
+	top:60px;
+	left: 5px;
+	bottom: 10px;
+
+}
+
+.thumbnail2 {
+	//float: left;
+	opacity: 1;
+	border: 3px solid white;
+	position: relative;
+	//margin-top: 30px;
+	max-width: 100%;
+	//margin-bottom: 50px;
+	//padding-left: 30px;
+	//margin-left: -20px;
+	padding-top:0px;
+	top: 80px;
+	left:0;
+	background-color: black;
+	color: white;
+	margin-bottom: 30px;
+}
+
+img {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+	margin-top: 70px;
+	max-width: 98%;
+}
+
+.timing1 {animation-delay: .5s;}
+.timing2 {animation-delay: 1s;}
+.timing3 {animation-delay: 1.5s;}
+.timing4 {animation-delay: 2s;}
+.timing5 {animation-delay: 2.5s;}
+.timing6 {animation-delay: 3s;}
+
+#drinkSection {
+	background-size: cover;
+	//position: relative;
+	background-image: url("../images/PentlandTaps1.jpg");
+	height: auto;
+	overflow: none;
+}
+
+
+.subsect {
+	height: 50%;
+	background-color: black;
+}
+
+.games {
+//	float:left;
+//	position: relative;
+//	width: 378px;
+	max-width: 100%;
+//	max-height: 246px;
+	//left: -10px;
+	//top: 60px;
+	vertical-align: middle;
+}
+
+#drinkSection h1 {
+	background: rgba(255,255,255,0.55);
+	color: black;
+	bottom: -20px;
+	left: 60px;
+	width: 50%;
+	position: relative;
+	padding: 5px;
+	margin:auto;
+	margin-right: auto;
+	float:left;
+}
+
+//.col-lg-4, .col-md-6, .col-sm-12 {
+//	margin: auto;
+//}
+
+
+#roomhireSection h2 {
+	background: rgba(255,255,255,0.55);
+	color: black;
+	bottom: 40px;
+	left: 10px;
+	max-width: 100%;
+	position: absolute;
+	padding: 5px;
+	margin:auto;
+	margin-right: auto;
+	float:left;
+}
+
+#roomhireSection {
+	height: auto;
+	background-image: url("../images/Event-Room1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4px 8px;
+	color: white;
+	margin: 0;
+}
+
+.module {
+	top: 80%;
+	left: 35%;
+	margin: auto;
+	width: 430px;
+	height: 150px;
+	background-size: cover;
+	float: left;
+	position: relative;
+
+}
+//this below is imported from pentlandcarousel.css
+.carousel, .item, .active {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+}
+
+.carousel-inner {
+	min-width: 100%;
+	height: 100%;
+//	max-height: 768px !important;
+	margin-top: 0px;
+	margin:auto;
+	background-position: center;
+}
+.carousel-indicators {
+	width: 100%;
+
+}
+ .row {
+	 margin: auto;
+	 width: 100%;
+	 //margin-top: 10px;
+	 max-height: 100%;
+ }
+
+
+.container-fluid {
+	height: 100%;
+  width: 100%;
+	background-color: black;
+	background-size: cover;
+	margin: auto;
+	overflow-y: none;
+
+}
+
+.container {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.carousel .left.carousel-control .right.carousel-control {
+	height: 100%;
+}
+/* fade on slider */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1 !important;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+#menu1 {
+  background: url("../images/starter1.png");
+  background-size: cover;
+  background-position: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+
+//#section {
+	//background-color: rgb(0,0,0);
+	//opacity: 0.7;
+	//height: 100%;
+	//width: 100%;
+	//background-size: cover;
+	//background-position: center;
+//}
+#dessertSection{
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/dessert1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+
+}
+
+#baguetteSection{
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/wrap1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+
+}
+
+#kidsSection{
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/kidsmeal1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#starterSection {
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	//background-image: url("../images/starter1.png");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#breakfastSection{
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/breakfast1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#mainSection {
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/fishnchips.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#burgerSection{
+
+	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
+	background-image: url("../images/burgerpic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	position: relative;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 1px #000;
+
+}
+
+.menu-body {
+  width: 700px;
+	max-width: 90%;
+  margin: 70px auto;
+  display: block;
+  //color: rgb(92, 92, 92);
+	color: #fff;
+}
+
+.menu-section {
+  margin-bottom: 50px;
+	max-width: 100%;
+}
+
+.menu-section-title {
+	top: 0px;
+  font-family: georgia;
+  font-size: 3.0em;
+  display: block;
+  font-weight:normal;
+  margin: 120px 0 0 0;
+	justify-content: center;
+  text-align: center;
+
+	//max-width: 100%;
+
+}
+
+.menu-item {
+	max-width: 98%;
+  margin-bottom: 40px;
+	margin-top: 40px;
+  font-size: 18px;
+}
+
+.menu-item-name {
+	width: 100%;
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.5em;
+	width: 100%;
+}
+
+.menu-item-price {
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+//.timing2 {
+	//color: white;
+//	margin-top: 20%;
+//	background-size: cover;
+//	text-align: center;
+//	margin-left: auto;
+//	margin-right: auto;
+//}
+
+//p#scroll_position_info {
+//	position: fixed;
+//	top:60%;
+//	left: 40%;
+//}
+
+//.animated {
+//	width: 100%;
+//}
+
+//#thumbs1, #thumbs2, #thumbs3, #thumbs4 {
+//	margin: auto;
+//	top: 100px;
+//	border: 10px solid black;
+//	height: 266px;
+//	width: 266px;
+
+//	position: relative;
+//	-webkit-animation-duration: 3s;
+//	opacity: 1;
+//}
+/*#thumb4{
+margin-right: 10%;
+}*/
+
+/*Large desktops and laptops*/
+//@media (min-width: 1200px) {
+
+//}
+
+/*Landscape tablets and medium desktops*/
+//@media (min-width 992px) and (max-width:1199px) {
+
+//}
+
+/* Portrait tablets and small desktops*/
+//@media (min-width: 768px) and (max-width: 991px){
+
+//}
+
+/*Landscape phones and portrait tablets*/
+//@media (max-width: 767px){
+
+//
+//@media (max-width: 480px){
+
+//}
+
+
+.container {
+	overflow-y: none;
+	overflow-x: none;
+	background-color: black;
+////.row{
+//	width:100%;
+//	height: 100%;
+//	margin: 0 auto 0 auto;
+//	right: 20%;
+//	background-color: black;
+}
+
+//.carousel-caption h3:first-child {
+//	animation delay: 1s;
+	//font-size: 50px;
+
+//	}
+
+//.carousel-caption h3:nth-child(2) {
+//	animation-delay: 2s;
+
+//}
