@@ -1,0 +1,19 @@
+{
+  "name": "pentland-roadhouse",
+  "version": "1.0.0",
+  "description": "website for local restaurant/bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lookandlearn76/pentland-roadhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lookandlearn76/pentland-roadhouse/issues"
+  },
+  "homepage": "https://github.com/lookandlearn76/pentland-roadhouse#readme"
+}
