@@ -1,5 +1,7 @@
 * {
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -14,6 +16,7 @@ html, body {
 	font-family: 'Quicksand', sans-serif;
 	opacity: 1;
 }
+
 
 #bs.nav-nav-demo {
 	background-color: black;
@@ -114,9 +117,6 @@ opacity: 1;
 	margin: auto;
 	display: block;
 }
-//.col-sm-12 {
-//	margin-left: 10px;
-//}
 
 
 a {
@@ -139,10 +139,6 @@ a {
 	height: auto;
 }
 
-//.container {
-//	margin: auto;
-//}
-
 .section {
 	min-height: 100%;
 	width:100%;
@@ -155,13 +151,6 @@ a {
 	background-attachment: fixed;
 	overflow: none;
 }
-
-
-//.subsect {
-//	position: relative;
-//	height: 50%;
-//	background-color: white;
-//}
 
 .about1 {
 	//display: block;
@@ -193,11 +182,6 @@ a {
 //	max-width: 90%;
 //	word-wrap: normal;
 }
-
-//.cleared {
-//	height: 10px;
-//	clear:both;
-//}
 
 .headline {
 	width: 100%;
@@ -250,18 +234,33 @@ a {
 
 
 .titles2 {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: #333;
 	width: 100%;
 	position: relative;
-	bottom: -80px;
-	left: 10px;
-	opacity: 0.80;
+//	bottom: -80px;
+//	left: 10px;
+
+	top: 70px;
+	opacity: 0.70;
 	padding: 5px;
-	margin-bottom: 20px;
+	margin: 0 auto 20px auto;
 	border: 2px solid white;
 }
 
+.titles3 {
+	background-color: white;
+	color: #333;
+	width: 100%;
+	position: relative;
+//	bottom: -80px;
+//	left: 10px;
+	top: 600px;
+	opacity: 0.70;
+	padding: 5px;
+	margin: 0 auto 20px auto;
+	border: 2px solid white;
+}
 
 
 //div .col {
@@ -355,7 +354,7 @@ iframe {
 
 #drinkSection h1 {
 	background: rgba(255,255,255,0.55);
-	color: black;
+	color: #7f8c8d;
 	bottom: -20px;
 	left: 60px;
 	width: 50%;
@@ -371,38 +370,40 @@ iframe {
 //}
 
 
-#roomhireSection h2 {
-	background: rgba(255,255,255,0.55);
-	color: black;
-	bottom: 40px;
-	left: 10px;
-	max-width: 100%;
-	position: absolute;
-	padding: 5px;
-	margin:auto;
-	margin-right: auto;
-	float:left;
-}
+//#roomhireSection h2 {
+	//background: rgba(255,255,255,0.55);
+//	color: black;
+	//bottom: 40px;
+	//left: 10px;
+	//max-width: 100%;
+	//position: absolute;
+	//padding: 5px;
+	//margin:auto;
+	//margin-right: auto;
+	//float:left;
+//}
 
 #roomhireSection {
 	height: auto;
 	background-image: url("../images/Event-Room1.jpg");
-	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 4px 8px;
 	color: white;
-	margin: 0;
+	overflow: none;
 }
-
-.module {
-	top: 80%;
-	left: 35%;
-	margin: auto;
-	width: 430px;
+ #roomhireSeciton .titles2 {
+	 position: relative;
+	 top: 90%;
+ }
+.module1 {
+	//top: 80%;
+//	left: 15%;
+	margin: 0 auto 0 auto;
+	width: 70%;
 	height: 150px;
-	background-size: cover;
-	float: left;
-	position: relative;
+	//background-size: cover;
+	//float: left;
+	//position: absolute;
 
 }
 //this below is imported from pentlandcarousel.css
