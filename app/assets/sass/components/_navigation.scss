@@ -1,0 +1,81 @@
+#bs.nav-nav-demo {
+  background-color: black;
+}
+
+button.navbar-toggle.collapsed {
+  margin-top: 15px;
+}
+
+.navbar-brand {
+  margin-bottom: 15px;
+  padding: 10px;
+  float: left;
+}
+
+.nav-navbar-nav {
+  position: fixed;
+  width: 75%;
+  height: 50px;
+  color: #6e0000;
+  text-align: center;
+  background-color: black;
+  z-index: 99;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
+.navbar-inverse {
+  background-color: black;
+}
+
+.navbar-fixed-top {
+  background-color: black;
+}
+
+.navbar.navbar-inverse .nav {
+  margin: auto;
+  width: 85%;
+  float: left;
+  background-color: black;
+}
+
+.navbar-header {
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+}
+
+.nav {
+  background-color: black;
+}
+
+.collapse-navbar-collapse {
+  background-color: black;
+}
+
+
+.navbar.navbar-inverse .nav > li {
+  max-width: 100%;
+  float: center;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  top: 10px;
+}
+
+.navbar-right {
+margin: auto;
+}
+
+
+.navbar.navbar-inverse nav > li > a {
+  max-width: 100%;
+  float: left;
+  text-align: center;
+  margin: auto;
+}

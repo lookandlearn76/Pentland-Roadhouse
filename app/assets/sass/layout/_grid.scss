@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+ 	.col-sm-12 {
+		margin-left: 20px;
+	}
+}
+
+ .row {
+	 margin: auto;
+	 width: 100%;
+	 //margin-top: 10px;
+	 max-height: 100%;
+ }
+
+.container-fluid {
+	height: 100%;
+  width: 100%;
+	background-color: black;
+	background-size: cover;
+	margin: auto;
+	overflow-y: none;
+}
+
+.container {
+  max-width: 100%;
+  height: auto;
+  overflow-y: none;
+  overflow-x: none;
+  background-color: black;
+}

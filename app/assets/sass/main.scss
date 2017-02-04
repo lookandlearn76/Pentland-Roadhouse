@@ -1,0 +1,28 @@
+@import "base/reset";
+
+@import "components/navigation";
+@import "components/carousel";
+@import "components/thumbnail";
+@import "components/titles";
+@import "components/anchors";
+
+@import "layout/mainpage";
+@import "layout/subsect";
+@import "layout/grid";
+
+@import "pages/indexpage/drinksection";
+@import "pages/indexpage/roomhiresection";
+@import "pages/indexpage/peeksection";
+@import "pages/indexpage/aboutsection";
+@import "pages/indexpage/findsection";
+
+@import "pages/menupage/kidssection";
+@import "pages/menupage/dessertsection";
+@import "pages/menupage/baguettesection";
+@import "pages/menupage/breakfastsection";
+@import "pages/menupage/mainsection";
+@import "pages/menupage/startersection";
+@import "pages/menupage/burger";
+@import "pages/menupage/menublocks";
+
+@import "animation/animation";

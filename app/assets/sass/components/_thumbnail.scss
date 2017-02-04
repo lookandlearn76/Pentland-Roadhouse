@@ -1,0 +1,23 @@
+.thumbnail {
+  opacity: 0;
+  position: relative;
+  margin-top: 10px;
+  max-width: 100%;
+  padding-top: 0px;
+  top: 60px;
+  left: 5px;
+  bottom: 10px;
+}
+
+.thumbnail2 {
+  opacity: 1;
+  border: 3px solid white;
+  position: relative;
+  max-width: 100%;
+  padding-top: 0px;
+  float: right;
+  top: 80px;
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+}
