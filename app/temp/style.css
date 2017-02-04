@@ -368,6 +368,11 @@ a {
   float: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_drinksection\.scss}line{font-family:\0000322}}
+#drinkSection img {
+  float: right;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\000032}}
 #roomhireSection {
   height: auto;
