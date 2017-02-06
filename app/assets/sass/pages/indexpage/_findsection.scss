@@ -4,3 +4,18 @@ iframe {
 	margin-top: 70px;
 	max-width: 98%;
 }
+
+.find2 {
+	border: 2px solid white;
+}
+
+@media (max-width: 500px) {
+ 	.find2 {
+		position: relative;
+		left: 10px;
+	}
+	.find2 h3 {
+		margin-left: -10px;
+	}
+
+}
