@@ -14,7 +14,7 @@
 .container-fluid {
 	height: 100%;
   width: 100%;
-	background-color: black;
+	background-color: $black;
 	background-size: cover;
 	margin: auto;
 	overflow-y: none;
@@ -25,5 +25,5 @@
   height: auto;
   overflow-y: none;
   overflow-x: none;
-  background-color: black;
+  background-color: $black;
 }

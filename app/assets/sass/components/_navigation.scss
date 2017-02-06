@@ -1,5 +1,5 @@
 #bs.nav-nav-demo {
-  background-color: black;
+  background-color: $black;
 }
 
 button.navbar-toggle.collapsed {
@@ -18,7 +18,7 @@ button.navbar-toggle.collapsed {
   height: 50px;
   color: #6e0000;
   text-align: center;
-  background-color: black;
+  background-color: $black;
   z-index: 99;
   margin-left: auto;
   margin-right: auto;
@@ -26,39 +26,45 @@ button.navbar-toggle.collapsed {
 }
 
 .navbar-inverse {
-  background-color: black;
+  background-color: $black;
 }
 
 .navbar-fixed-top {
-  background-color: black;
+  background-color: $black;
 }
 
 .navbar.navbar-inverse .nav {
   margin: auto;
   width: 85%;
   float: left;
-  background-color: black;
+  background-color: $black;
 }
 
 .navbar-header {
   max-width: 100%;
   text-align: center;
   vertical-align: middle;
-  background-color: black;
+  background-color: $black;
 }
 
 .nav {
-  background-color: black;
+  display: flex;
+  background-color: $black;
+}
+
+@media (max-width: 500px) {
+  .nav {
+    display: block;
+  }
 }
 
 .collapse-navbar-collapse {
-  background-color: black;
+  background-color: $black;
 }
 
 
 .navbar.navbar-inverse .nav > li {
   max-width: 100%;
-  float: center;
   display: flex;
   text-align: center;
   margin: auto;
@@ -69,12 +75,13 @@ button.navbar-toggle.collapsed {
 }
 
 .navbar-right {
-margin: auto;
+  margin: auto;
 }
 
 
 .navbar.navbar-inverse nav > li > a {
   max-width: 100%;
+  display: flex;
   float: left;
   text-align: center;
   margin: auto;

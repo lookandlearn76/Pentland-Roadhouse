@@ -1,11 +1,12 @@
 .aboutText {
+	font-size: 2rem;
 	position:relative;
 	max-width: 100%;
 	padding: 20px;
-	color: white;
+	color: $white;
 	top: 70px;
 	left: 3px;
-	border: 2px solid white;
+	border: 2px solid $white;
 	//margin-bottom: 70px;
 }
 
@@ -13,4 +14,9 @@
 	//float: none;
 	height: auto;
 	width: 100%;
+}
+
+#aboutSection p {
+	font-size: 2.5rem;
+	text-align: left;
 }

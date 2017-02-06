@@ -1,3 +1,5 @@
+@import "helpers/variables";
+
 @import "base/reset";
 
 @import "components/navigation";
@@ -9,6 +11,8 @@
 @import "layout/mainpage";
 @import "layout/subsect";
 @import "layout/grid";
+
+
 
 @import "pages/indexpage/drinksection";
 @import "pages/indexpage/roomhiresection";
