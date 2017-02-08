@@ -314,6 +314,16 @@ a {
     margin-bottom: 100px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000326}}
+.titles {
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000330}}
+.headline {
+  opacity: 0;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/layout\/_subsect\.scss}line{font-family:\000031}}
 .subsect {
   height: 25%;
@@ -350,6 +360,16 @@ a {
   overflow-y: none;
   overflow-x: none;
   background-color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000033}}
+footer {
+  height: 50px;
+  position: sticky;
+  color: #fff;
+  text-align: center;
+  left: auto;
+  right: auto;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_drinksection\.scss}line{font-family:\000032}}
@@ -393,6 +413,7 @@ a {
 #roomhireSection .titles2 {
   position: relative;
   top: 90%;
+  font-weight: 100;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\000031}}
@@ -410,6 +431,26 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\0000312}}
 #peekSection {
   height: auto;
+  margin-bottom: 60px;
+  overflow: none;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\0000320}}
+  #peekSection {
+    margin-bottom: 60px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\0000325}}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\0000330}}
+#peekSection .titles {
+  opacity: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_aboutsection\.scss}line{font-family:\000031}}
@@ -434,6 +475,16 @@ a {
 #aboutSection p {
   font-size: 2.5rem;
   text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_aboutsection\.scss}line{font-family:\0000325}}
+#aboutSection .thumbnail {
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_aboutsection\.scss}line{font-family:\0000329}}
+#aboutSection .titles {
+  opacity: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_findsection\.scss}line{font-family:\000031}}
@@ -461,6 +512,11 @@ iframe {
     margin-left: -10px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_findsection\.scss}line{font-family:\0000323}}
+.find2 {
+  opacity: 0;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/menupage\/_kidssection\.scss}line{font-family:\000031}}
 #kidsSection {
   /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/

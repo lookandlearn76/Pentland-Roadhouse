@@ -11,4 +11,22 @@
 
 #peekSection {
 	height: auto;
+	margin-bottom: 60px;
+	overflow: none;
+	position:relative;
+}
+
+@media (max-width: 500px) {
+ 	#peekSection {
+		margin-bottom: 60px;
+	}
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: 50px;
+}
+
+#peekSection .titles {
+	opacity: 0;
 }
