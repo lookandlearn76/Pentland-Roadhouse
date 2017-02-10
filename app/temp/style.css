@@ -78,11 +78,10 @@ button.navbar-toggle.collapsed {
 .navbar.navbar-inverse .nav {
   margin: auto;
   width: 85%;
-  float: left;
   background-color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000342}}
 .navbar-header {
   max-width: 100%;
   text-align: center;
@@ -90,24 +89,40 @@ button.navbar-toggle.collapsed {
   background-color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000349}}
 .nav {
   display: flex;
   background-color: #000;
 }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000356}}
+@media (max-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000363}}
   .nav {
     display: block;
+    float: left;
+    background-color: #000;
+    margin-left: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
+@media (min-width: 767px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000373}}
+  .navbar-brand {
+    width: 50px;
+    text-align: center;
+    font-size: 12px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000379}}
+  .nav {
+    float: right !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\00003117}}
 .collapse-navbar-collapse {
   background-color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\00003122}}
 .navbar.navbar-inverse .nav > li {
   max-width: 100%;
   display: flex;
@@ -119,12 +134,12 @@ button.navbar-toggle.collapsed {
   top: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\00003133}}
 .navbar-right {
   margin: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_navigation\.scss}line{font-family:\00003138}}
 .navbar.navbar-inverse nav > li > a {
   max-width: 100%;
   display: flex;
@@ -253,6 +268,7 @@ button.navbar-toggle.collapsed {
 .titles3 {
   background-color: #fff;
   color: #000;
+  font-weight: 100;
   width: 100%;
   position: relative;
   top: 600px;
@@ -263,7 +279,7 @@ button.navbar-toggle.collapsed {
 }
 
 @media only screen and (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000344}}
   .titles3 {
     background-color: #fff;
     color: #000;
@@ -405,17 +421,17 @@ footer {
   background-image: url("../assets/images/function/Event-Room1.jpg");
   background-size: cover;
   padding: 4px 8px;
-  color: #fff;
   overflow: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\0000310}}
-#roomhireSection .titles2 {
-  position: relative;
-  top: 90%;
   font-weight: 100;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\0000316}}
+  #roomhireSection h2 {
+    position: relative;
+    top: 400px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/app\/assets\/sass\/pages\/indexpage\/_peeksection\.scss}line{font-family:\000031}}
 .headline {
   width: 100%;
