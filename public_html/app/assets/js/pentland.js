@@ -12,7 +12,7 @@ $titles.addClass('animated fadeIn');
 $thumbnail.css('opacity', 1);
 $titles.css('opacity', 1);
 
-}, {offset: '50%'})
+}, {offset: '50%'});
 
 $thumbnail1.waypoint(function(){
 $thumbnail1.addClass('animated fadeIn');
@@ -20,7 +20,7 @@ $titles1.addClass('animated fadeIn');
 $thumbnail1.css('opacity', 1);
 $titles1.css('opacity', 1);
 
-}, {offset: '50%'})
+}, {offset: '50%'});
 
 $find.waypoint(function(){
 $find2.addClass('animated fadeIn');
@@ -28,7 +28,7 @@ $titles2.addClass('animated fadeIn');
 $find2.css('opacity', 1);
 $titles2.css('opacity', 1);
 
-}, {offset: '50%'})
+}, {offset: '50%'});
 
 
 $(document).ready(function(){

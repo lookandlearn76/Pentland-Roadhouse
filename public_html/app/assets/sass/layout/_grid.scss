@@ -5,24 +5,25 @@
 }
 
  .row {
+   height: auto;
 	 margin: auto;
 	 width: 100%;
-	 //margin-top: 10px;
-	 max-height: 100%;
+	 margin-top: 20px;
+	 //max-height: 100%;
  }
 
 .container-fluid {
-	height: 100%;
+	height: auto;
   width: 100%;
 	background-color: $black;
 	background-size: cover;
-	margin: auto;
+	//margin: auto;
 	overflow-y: none;
 }
 
 .container {
   max-width: 100%;
-  height: auto;
+  max-height: auto;
   overflow-y: none;
   overflow-x: none;
   background-color: $black;

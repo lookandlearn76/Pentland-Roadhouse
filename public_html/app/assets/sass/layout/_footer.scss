@@ -1,8 +1,10 @@
 
 
-footer {
+.footer {
   height: 50px;
-  position: sticky;
+  overflow: none;
+  position: relative;
+  //position: fixed;
   color: $white;
   text-align: center;
   left: auto;

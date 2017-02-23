@@ -1,7 +1,8 @@
 .titles {
-	//margin: auto;
+	//margin-top: auto;
+	//overflow-y: none;
 	background-color: $black;
-//	background-size: contain;
+  //background-size: contain;
 	text-align: center;
 	color: $white;
 	position: relative;
@@ -10,12 +11,13 @@
 }
 
 .titles2 {
+	font-size: .5rem;
 	background-color: $white;
 	color: $black;
 	width: 100%;
 	position: relative;
-//	bottom: -80px;
-//	left: 10px;
+/*	bottom: -80px;*/
+/*	left: 10px;*/
 
 	top: 70px;
 	opacity: 0.70;
@@ -29,6 +31,7 @@
 	color: $black;
 	font-weight: 100;
 	width: 100%;
+	height: auto;
 	position: relative;
 	top: 500px;
 	opacity: 0.70;
@@ -37,19 +40,65 @@
 	border: 2px solid $white;
 }
 
-
-@media only screen and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 568px) {
 	.titles3 {
-		top: 100px;
+		top: 200px;
+		font-size: medium;
 	}
 }
 
 .titles4 {
 	top: 600px;
 }
-
-@media only screen and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
 	.titles4 {
-		top: 200px;
+		top: 320px;
+		//font-size: .5rem;
 	}
+	.titles4 h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+	.titles4 {
+		top: 360px;
+		//font-size: .5rem;
+	}
+	.titles4 h2 {
+		font-size: 2rem;
+	}
+}
+
+//@media screen and (min-width: 414px) and (max-width: 1920px) {
+//	.titles4 {
+//		top: px;
+		//font-size: .5rem;
+	//}
+	//.titles4 h2 {
+	//	font-size: 2rem;
+	//}
+//}
+@media screen
+	and (min-device-width : 768px)
+	and (max-device-width:1024px)
+	and (-webkit-min-device-pixel-ratio:1) {
+
+ 	#roomhireSection .titles4 {
+		position: relative;
+	 	top: 400px;
+		overflow: none;
+
+ 	}
+}
+
+.titles5 {
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 12px;
+}
+
+.titles5 p {
+	font-size: 1.5rem;
 }

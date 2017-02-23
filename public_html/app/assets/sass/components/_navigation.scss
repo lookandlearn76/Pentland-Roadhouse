@@ -47,17 +47,19 @@ button.navbar-toggle.collapsed {
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: $black;
 }
 
-//@media (min-width: 768px) and (max-width: 1000px){
-//  .collapse {
-//    display: none !important;
-//  }
-  //.navbar-brand {
-//    font-size: 12px;
-//}
+/*@media (min-width: 768px) and (max-width: 1000px){*/
+/*  .collapse {*/
+/*    display: none !important;*/
+/*  }*/
+  /*.navbar-brand {*/
+/*    font-size: 12px;*/
+/*}*/
 
 @media (max-width: 990px) {
     .nav {
@@ -70,49 +72,15 @@ button.navbar-toggle.collapsed {
 }
 
 @media (min-width: 767px) and (max-width: 991px){
-    .navbar-brand {
-      width: 50px;
-      text-align: center;
-      font-size: 12px !important;
-    //  padding: auto 0 auto 0 !important;
+  .navbar-brand {
+     width: 50px;
+     text-align: center;
+    // font-size: 12px !important;
     }
-    .nav {
-      float: right !important;
+   .nav {
+     float: right !important;
     }
 }
-  //.navbar-header {
-  //  float: none;
-//  }
-//}
-//  .navbar-left, .navbar-right {
-//    float: none !important;
-//  }
-//  .navbar-toggle {
-//    display: block;
-//  }
-//  .navbar-collapse {
-//    border-top: 1px solid transparent;
-//    box-shadow: inset 0 1px;
-//  }
-//  .navbar-fixed-top {
-//    top: 0;
-//    border-width: 0 0 1px;
-//  }
-//  .navbar-collapse.collapse {
-//    display: none!important
-//  }
-//  .navbar-nav {
-//    float: none!important;
-//    margin-top: 7.5px;
-//  }
-//  .navbar-nav>li>a {
-//    padding-top: 10px;
-//    padding-bottom: 10px;
-//  }
-//  .collapse.in {
-//    display: block !important;
-//  }
-//}
 
 .collapse-navbar-collapse {
   background-color: $black;
@@ -121,6 +89,8 @@ button.navbar-toggle.collapsed {
 
 .navbar.navbar-inverse .nav > li {
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
   margin: auto;
@@ -137,6 +107,8 @@ button.navbar-toggle.collapsed {
 
 .navbar.navbar-inverse nav > li > a {
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   float: left;
   text-align: center;

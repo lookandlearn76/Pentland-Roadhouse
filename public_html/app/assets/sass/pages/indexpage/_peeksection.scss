@@ -12,8 +12,8 @@
 #peekSection {
 	height: auto;
 	margin-bottom: 60px;
-	overflow: none;
-	position:relative;
+	overflow-y: none;
+	position: relative;
 }
 
 @media (max-width: 500px) {

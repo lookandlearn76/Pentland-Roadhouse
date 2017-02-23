@@ -13,8 +13,9 @@
 	and (max-device-width:1024px)
 	and (-webkit-min-device-pixel-ratio:1) {
 
- 	#roomhireSection h2 {
+ 	#roomhireSection .titles4 {
 		position: relative;
-	 	top: 400px;
+	 	top: 100px;
+		overflow: none;
  	}
 }
