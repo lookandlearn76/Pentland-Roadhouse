@@ -40,16 +40,53 @@
 	border: 2px solid $white;
 }
 
-@media screen and (min-width: 320px) and (max-width: 568px) {
+.titles4 {
+	top: 600px;
+}
+
+.titles5 {
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 12px;
+}
+
+.titles5 p {
+	font-size: 1.5rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 568px) {
 	.titles3 {
-		top: 200px;
+		top: 170px;
 		font-size: medium;
 	}
 }
 
-.titles4 {
-	top: 600px;
+
+
+@media (min-width: 799px) and (max-width: 1023px) {
+	.titles3 {
+		top: 400px;
+		font-size: medium;
+	}
 }
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+	.titles3 {
+		top: 600px;
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.titles3 {
+		top: 900px;
+		font-size: 3.5em;
+	}
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
 	.titles4 {
 		top: 320px;
@@ -69,6 +106,17 @@
 		font-size: 2rem;
 	}
 }
+
+@media screen and (min-width: 799px) and (max-width: 1365px) {
+	.titles4 {
+		top: 380px;
+		//font-size: .5rem;
+	}
+	.titles4 h2 {
+		font-size: 2rem;
+	}
+}
+
 
 //@media screen and (min-width: 414px) and (max-width: 1920px) {
 //	.titles4 {
@@ -92,13 +140,151 @@
  	}
 }
 
-.titles5 {
-	color: white;
-	margin-top: auto;
-	margin-bottom: auto;
-	font-size: 12px;
+@media (width: 320px) and (height: 480px) {
+	.titles2 h2 {
+		font-size: 1.75rem;
+	}
+
+	.titles3 {
+		top: 270px;
+	}
+	.titles3 h3 {
+		font-size: 1.75rem;
+	}
+
+	.titles4 {
+		top: 320px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
 }
 
-.titles5 p {
-	font-size: 1.5rem;
+@media (width: 320px) and (height: 568px) {
+	.titles2 h2 {
+		font-size: 2.0rem;
+	}
+	.titles3 {
+		top: 310px;
+		font-size: medium;
+	}
+	.titles3 h3 {
+		font-size: 2.0rem;
+	}
+	.titles4 {
+		top: 390px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 375px) and (height: 667px) {
+	.titles2 h2 {
+		font-size: 2.5rem;
+	}
+
+	.titles3 {
+		top: 390px;
+		font-size: medium;
+	}
+	.titles4 {
+		top: 450px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 414px) and (height: 736px) {
+	.titles2 h2 {
+		font-size: 2.5rem;
+	}
+
+	.titles3 {
+		top: 490px;
+		font-size: medium;
+	}
+	.titles4 {
+		top: 500px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 800px) and (height: 600px) {
+	.titles2 h2 {
+		font-size: 2.5rem;
+	}
+
+	.titles3 {
+		top: 490px;
+		font-size: medium;
+	}
+	.titles4 {
+		top: 460px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 1024px) and (height: 768px) {
+	.titles3 {
+		top: 560px;
+		font-size: medium;
+	}
+	.titles4 {
+		top: 600px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 1366px) and (height: 1024px) {
+	.titles3 {
+		top: 800px;
+		font-size: medium;
+	}
+	.titles3 h3 {
+		font-size: 3.5rem;
+	}
+	.titles2 h2 {
+		font-size: 3.5rem;
+	}
+	.titles4 {
+		top: 800px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (width: 1920px) and (height: 1080px) {
+	.titles3 {
+		top: 800px;
+		font-size: medium;
+	}
+	.titles3 h3 {
+		font-size: 4.5rem;
+	}
+	.titles2 h2 {
+		font-size: 5.0rem;
+	}
+	.titles4 {
+		top: 850px;
+	}
+	.titles4 h2 {
+		margin-top: -2px;
+		margin-bottom: -10px;
+	}
 }

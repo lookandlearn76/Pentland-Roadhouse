@@ -8,3 +8,28 @@ a {
   max-width: 150px;
   margin-bottom: 5px;
 }
+
+@media (width: 1366px) and (height: 1024px) {
+	 .nav a {
+		 line-height: 50px;
+     vertical-align: middle;
+		 font-size: 2.0rem;
+    // margin-top: 2px;
+     margin-bottom: 5px;
+     margin-top: -5px;
+    // vertical-align: middle;
+	}
+}
+
+@media (width: 800px) and (height: 600px) {
+	 .nav a {
+     display: block;
+  //   margin: -5px auto 5px auto;
+		 line-height: 50px;
+		 font-size: .85rem;
+     margin-left: auto;
+	}
+  .navbar-right li {
+    left: -10px;
+  }
+}
