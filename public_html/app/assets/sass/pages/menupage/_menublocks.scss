@@ -12,12 +12,18 @@
 .menu-section {
   margin-bottom: 50px;
 	max-width: 100%;
+  margin-top: -25px;
 }
 
+.menu-section {
+  margin-bottom: 50px;
+	max-width: 100%;
+  margin-top: -25px;
+}
 .menu-section-title {
 	top: 0px;
   font-family: georgia;
-  font-size: 3.0em;
+  font-size: 2.7em;
   display: block;
   font-weight:normal;
   margin: 120px 0 0 0;
@@ -30,11 +36,12 @@
 	max-width: 98%;
   margin-bottom: 40px;
 	margin-top: 40px;
-  font-size: 18px;
+//  font-size: 18px;
 }
 
 .menu-item-name {
 	width: 100%;
+  font-size: 1.5em;
   font-family: helvetica;
   font-weight: bold;
   border-bottom: 2px dotted rgb(213, 213, 213);
@@ -42,7 +49,7 @@
 
 .menu-item-description {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5em;
 	width: 100%;
 }
@@ -52,4 +59,19 @@
   font-weight: bold;
   font-family: arial;
   margin-top: -25px;
+}
+
+@media (min-width: 1366px) {
+  .menu-section-title {
+    font-size: 6.0rem;
+  }
+  .menu-item-name {
+    font-size: 3.5rem;
+  }
+  .menu-item-price {
+    font-size: 2.5rem;
+  }
+  .menu-item-description {
+    font-size: 3.0rem;
+  }
 }

@@ -988,13 +988,21 @@ iframe {
 .menu-section {
   margin-bottom: 50px;
   max-width: 100%;
+  margin-top: -25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000318}}
+.menu-section {
+  margin-bottom: 50px;
+  max-width: 100%;
+  margin-top: -25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000323}}
 .menu-section-title {
   top: 0px;
   font-family: georgia;
-  font-size: 3.0em;
+  font-size: 2.7em;
   display: block;
   font-weight: normal;
   margin: 120px 0 0 0;
@@ -1005,31 +1013,31 @@ iframe {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000335}}
 .menu-item {
   max-width: 98%;
   margin-bottom: 40px;
   margin-top: 40px;
-  font-size: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000342}}
 .menu-item-name {
   width: 100%;
+  font-size: 1.5em;
   font-family: helvetica;
   font-weight: bold;
   border-bottom: 2px dotted #d5d5d5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000350}}
 .menu-item-description {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5em;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000357}}
 .menu-item-price {
   float: right;
   font-weight: bold;
@@ -1037,6 +1045,27 @@ iframe {
   margin-top: -25px;
 }
 
+@media (min-width: 1366px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000365}}
+  .menu-section-title {
+    font-size: 6.0rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000368}}
+  .menu-item-name {
+    font-size: 3.5rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000371}}
+  .menu-item-price {
+    font-size: 2.5rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\0000374}}
+  .menu-item-description {
+    font-size: 3.0rem;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/animation\/_animation\.scss}line{font-family:\000031}}
 .timing1 {
   -webkit-animation-delay: .5s;
