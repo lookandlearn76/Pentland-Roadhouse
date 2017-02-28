@@ -916,7 +916,7 @@ iframe {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/pentland-roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_baguettesection\.scss}line{font-family:\000031}}
 #baguetteSection {
   /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-  background-image: url("../../app/assets/images/food/wrap1.png");
+  background-image: url("../../app/assets/images/food/wrap1.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
