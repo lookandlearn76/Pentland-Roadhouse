@@ -1,10 +1,10 @@
 <!DOCTYPE html-->
 <!-- Website built by C M Hayden Email: code1hayden@gmail.com www.linkedin.com/in/christopher-mark-hayden -->
 <html>
-	<head land="en">
-		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+	<head lang="en">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-		<title>Scrolling Website</title>
+		<title>Pentland Roadhouse</title>
 		<link rel="stylesheet" type="text/css" href="app/temp/style.css">
 		<link rel="stylesheet" type="text/css" href="app/assets/css/lightbox.css">
 		<!-- Latest compiled and minified CSS -->
@@ -17,7 +17,7 @@
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+		      <button id="btnCollapse" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -29,12 +29,12 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-nav-demo">
 		      <ul class="nav navbar-nav navbar-right">
-						<li><a class="first" id="about" href="#aboutSection">ABOUT</a></li>
-						<li><a class="first" id="drink" href="#drinkSection">NIGHT OUT</A></li>
-						<li><a class="first" id="find" href="#findSection">FIND US</a></li>
-						<li><a class="first" id="roomhire" href="#roomhireSection">HIRE A ROOM</a></li>
-						<li><a class="first" id="peek" href="#peekSection">TAKE A PEEK</A></li>
-						<li><a id="food" href="menu.html">MENU</a>
+						<li><a class="first a" id="about" href="#aboutSection">ABOUT</a></li>
+						<li><a class="first a" id="drink" href="#drinkSection">NIGHT OUT</A></li>
+						<li><a class="first a" id="find" href="#findSection">FIND US</a></li>
+						<li><a class="first a" id="roomhire" href="#roomhireSection">HIRE A ROOM</a></li>
+						<li><a class="first a" id="peek" href="#peekSection">TAKE A PEEK</A></li>
+						<li><a id="food a" href="menu.html">MENU</a>
 					</ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-->
@@ -63,7 +63,7 @@
 									</div>
 						</div>
 						<div class="item">
-								<img src="app/assets/images/food/fishnchips.png" alt="fishnchips.png" width="100%" height="100%"/>
+								<img src="app/assets/images/food/fishnchips.jpg" alt="fishnchips.jpg" width="100%" height="100%"/>
 
 								<div class="carousel-caption">
 									<h3 class="icon-container" data-animation="animated bounceInLeft">
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		<div class="subsect"></div>
-		<div id="aboutSection" class="container section">
+		<div id="aboutSection" class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12">
 					<div class="thumbnail timing1">
@@ -201,20 +201,18 @@
 							<a href="app/assets/images/dining/diningbar1.jpg" data-lightbox="gallery1" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/dining/diningbar1.jpg" min-width="246px" min-height="246px"></a>
 							<a href="app/assets/images/dining/diningbar2.jpg" data-lightbox="gallery1" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
 						</div>
-							<div>
-								<h2>RESTAURANT BAR</H2>
-							</div>
+						<h2>RESTAURANT BAR</H2>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="thumbnail timing2">
-						<a href="app/assets/images/sportsbar/bar-side-dining.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/sportsbar/bar-side-dining.jpg" min-width="246px" min-height="246px"></a>
-							<a href="app/assets/images/sportsbar/Poolshot1.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
-							<a href="app/assets/images/sportsbar/dartboard1.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
-							<a href="app/assets/images//sportsbar/fullbar2.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
-							<a href="app/assets/images//sportsbar/sportsbar2.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
-						<div>
-							<H2>SPORTS BAR</H2>
+						<div id="gallery2">
+							<a href="app/assets/images/sportsbar/bar-side-dining.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/sportsbar/bar-side-dining.jpg" min-width="246px" min-height="246px"></a>
+								<a href="app/assets/images/sportsbar/Poolshot1.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
+								<a href="app/assets/images/sportsbar/dartboard1.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
+								<a href="app/assets/images//sportsbar/fullbar2.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
+								<a href="app/assets/images//sportsbar/sportsbar2.jpg" data-lightbox="gallery2" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
+								<H2>SPORTS BAR</H2>
 						</div>
 					</div>
 				</div>
@@ -222,11 +220,13 @@
 					<div class="thumbnail timing3">
 						<a href="app/assets/images/dining/Dining2.jpg" data-lightbox="gallery3" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/dining/Dining2.jpg" min-width="246px" min-height="246px"></a>
 						<a href="app/assets/images/dining/dining3.jpg" data-lightbox="gallery3" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
-							<div>
-								<H2>RESTAURANT</H2>
-							</div>
+						<div>
+							<H2>RESTAURANT</H2>
+						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="thumbnail timing4">
 						<a href="app/assets/images/function/Event-Room1.jpg" data-lightbox="gallery4" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/function/eventroom1.jpg" min-width="246px" min-height="246px"></a>
@@ -248,7 +248,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="thumbnail timing6">
-					<a href="app/assets/images/front/Front.jpeg" data-lightbox="gallery6" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/front/Front.jpeg" min-width="246px" min-height="246px"></a>
+						<a href="app/assets/images/front/Front.jpeg" data-lightbox="gallery6" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"><img class="animated" src="app/assets/images/front/Front.jpeg" min-width="246px" min-height="246px"></a>
 						<a href="app/assets/images/front/fencesign.jpg" data-lightbox="gallery6" data-title="Photograph by Haven Shank Photography https://havenshank.myportfolio.com"></a>
 						<div><H2>ENTRANCE</H2></div>
 					</div>

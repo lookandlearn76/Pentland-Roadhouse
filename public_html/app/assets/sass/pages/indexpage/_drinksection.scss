@@ -1,10 +1,12 @@
 
 #drinkSection {
 	background-size: cover;
-	/*position: relative;*/
+	background-position: center center;
 	background-image: url("../../app/assets/images/bandphoto1.jpeg");
-	-moz-height: auto;
-	height: auto;
-	overflow: none;
-	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	//position: relative;
 }

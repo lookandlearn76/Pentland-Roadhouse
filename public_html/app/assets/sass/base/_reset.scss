@@ -13,7 +13,7 @@ html, body {
 	border:0px;
 	-webkit-transition: all 1s ease-in;
 	transition: all 1s ease-in;
-	background-color: $black;
+	background-color: black;
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Quicksand', sans-serif;
 	opacity: 1;
@@ -31,4 +31,10 @@ h1, h2, h3, h4, h5, h6, p {
 img {
 	-moz-min-height: 100%;
 	-moz-min-width: 100%;
+	-moz-max-height: 100%;
+	-moz-max-width: 100%;
+	-webkit-min-height: 100%;
+	-webkit-min-width: 100%;
+	-webkit-max-height: 100%;
+	-webkit-max-width: 100%;
 }

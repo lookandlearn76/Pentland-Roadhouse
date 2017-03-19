@@ -44,3 +44,8 @@ function setListen(){
 		}, 1000)
 	})
 };
+
+$(".a").click(function () {
+					 if ($("#btnCollapse").css('display')!='none')
+					 $("#btnCollapse").click();
+			 });

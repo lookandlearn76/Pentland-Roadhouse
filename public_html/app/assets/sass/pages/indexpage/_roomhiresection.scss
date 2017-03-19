@@ -1,11 +1,17 @@
 
 #roomhireSection {
-	background-size: cover;
-	background-image: url("../../app/assets/images/function/eventroom1.jpg");
 	height: auto;
 	padding: 4px 8px;
 	overflow: none;
 	font-weight: 100;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("../../app/assets/images/function/eventroom1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 @media only screen
