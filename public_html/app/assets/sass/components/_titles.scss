@@ -1,7 +1,7 @@
 .titles {
 	/*margin-top: auto;*/
 	/*overflow-y: none;*/
-	background-color: $black;
+	//background-color: $black;
   /*background-size: contain;*/
 	text-align: center;
 	color: $white;
@@ -11,10 +11,11 @@
 }
 
 .titles2 {
-	font-size: .5rem;
+	text-align: center;
+	//font-size: .5rem;
 	background-color: $white;
-	color: $black;
-	width: 100%;
+	//color: $black;
+//	width: 100%;
 	position: relative;
 /*	bottom: -80px;*/
 /*	left: 10px;*/
@@ -26,22 +27,47 @@
 	border: 2px solid $white;
 }
 
+.titles2 h2 {
+	@include atSmall {
+		font-size: 4rem;
+	}
+}
+
 .titles3, .titles4 {
 	background-color: $white;
 	color: $black;
+	text-align: center;
 	font-weight: 100;
 	width: 100%;
 	height: auto;
 	position: relative;
-	top: 500px;
+	top: 290px;
 	opacity: 0.70;
 	padding: 5px;
 	margin: 0 auto 20px auto;
 	border: 2px solid $white;
 }
 
+
+
+.titles3 h3 {
+	font-size: 18px;
+ 	@include atSmall {
+	 font-size: 3rem;
+ }
+}
+
+
 .titles4 {
 	top: 600px;
+	@include atMedium {
+		top:700px;
+	}
+}
+
+.titles4 h2 {
+	padding-bottom: 25px;
+	text-align: center;
 }
 
 .titles5 {
@@ -56,12 +82,12 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 568px) {
-	.titles3 {
-		top: 170px;
-		font-size: medium;
-	}
-}
+//@media (min-width: 320px) and (max-width: 568px) {
+//	.titles3 {
+//		top: 150px;
+//		font-size: medium;
+//	}
+//}
 
 
 
@@ -74,7 +100,7 @@
 
 @media (min-width: 1024px) and (max-width: 1919px) {
 	.titles3 {
-		top: 600px;
+		top: 625px;
 		font-size: 2.5em;
 	}
 }
@@ -166,11 +192,8 @@
 		font-size: 2.0rem;
 	}
 	.titles3 {
-		top: 310px;
+		top: 290px;
 		font-size: medium;
-	}
-	.titles3 h3 {
-		font-size: 2.0rem;
 	}
 	.titles4 {
 		top: 390px;
@@ -187,7 +210,7 @@
 	}
 
 	.titles3 {
-		top: 390px;
+		top: 220px;
 		font-size: medium;
 	}
 	.titles4 {
@@ -237,7 +260,7 @@
 
 @media (width: 1024px) and (height: 768px) {
 	.titles3 {
-		top: 560px;
+		top: 450px;
 		font-size: medium;
 	}
 	.titles4 {

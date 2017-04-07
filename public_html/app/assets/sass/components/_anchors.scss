@@ -8,6 +8,10 @@ a {
   max-width: 150px;
   margin-top: -5px;
   margin-bottom: 5px;
+  @include atSmall {
+    margin-top: 5px;
+    font-size: 18px;
+  }
 }
 
 @media (width: 1366px) and (height: 1024px) {

@@ -1,12 +1,14 @@
 @import "helpers/variables";
 
 @import "base/reset";
+@import "base/mixins";
 
 @import "components/navigation";
 @import "components/carousel";
 @import "components/thumbnail";
 @import "components/titles";
 @import "components/anchors";
+@import "components/btn";
 
 @import "layout/mainpage";
 @import "layout/subsect";

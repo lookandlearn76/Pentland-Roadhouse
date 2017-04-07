@@ -1,9 +1,11 @@
 .thumbnail {
+  text-align: center;
+  display: inline-block;
  /*-moz-max-height: 256px;*/
 /*  -webkit-max-height: 256px;*/
-/*  max-height: 256px;*/
+  //max-height: 256px;
   opacity: 0;
-  display: inline-block;
+//  display: inline-block;
   //max-height: auto;
   -webkit-max-height: auto;
   position:relative;
@@ -11,13 +13,17 @@
   //margin-bottom: 20px;
   /*margin-left: 10px;*/
   max-width: 100%;
-  padding: 0px;
+  padding: 5px;
   top: 60px;
-  left: 5px;
+//  left: 5px;
   bottom: 0px;
-  border:2px solid white;
-  float:none;
-  box-sizing:border-box;
+//  border:2px solid white;
+  //float:none;
+//  box-sizing:border-box;
+}
+
+.thumbnail h2 {
+  font-size: 24px;
 }
 
 /*.thumbnail2 {*/

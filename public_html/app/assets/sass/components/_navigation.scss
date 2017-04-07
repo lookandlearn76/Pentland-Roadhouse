@@ -1,6 +1,6 @@
-#bs.nav-nav-demo {
-  background-color: $black;
-}
+//#bs.nav-nav-demo {
+//  background-color: $black;
+//}
 
 button.navbar-toggle.collapsed {
   margin-top: 15px;
@@ -8,9 +8,15 @@ button.navbar-toggle.collapsed {
 
 
 .navbar-brand {
+  position: relative;
+  left: 0px;
   margin-bottom: 15px;
-  padding: 10px;
-  float: left;
+//  padding: 10px;
+//  float: left;
+  @include atSmall {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .nav-navbar-nav {
@@ -19,7 +25,7 @@ button.navbar-toggle.collapsed {
   height: 50px;
   color: #6e0000;
   text-align: center;
-  background-color: $black;
+//  background-color: $black;
   z-index: 99;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +33,7 @@ button.navbar-toggle.collapsed {
 }
 
 .navbar-inverse {
-  background-color: $black;
+//  background-color: $black;
 }
 
 .navbar-fixed-top {
@@ -37,7 +43,7 @@ button.navbar-toggle.collapsed {
 .navbar.navbar-inverse .nav {
   margin: auto;
   width: 85%;
-  background-color: $black;
+//  background-color: $black;
 }
 
 @media (width: 800px) and (height: 600px) {
@@ -47,12 +53,12 @@ button.navbar-toggle.collapsed {
   }
 }
 
-.navbar-header {
-  max-width: 100%;
-  text-align: center;
-  vertical-align: middle;
-  background-color: $black;
-}
+//.navbar-header {
+//  max-width: 100%;
+//  text-align: center;
+//  vertical-align: middle;
+//  background-color: $black;
+//}
 
 .nav {
   display: -webkit-box;
@@ -73,6 +79,7 @@ button.navbar-toggle.collapsed {
 
 .collapse-navbar-collapse {
   background-color: $black;
+  float: left;
 }
 
 

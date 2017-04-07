@@ -1,8 +1,8 @@
-@media (max-width: 500px) {
- 	.col-sm-12 {
-		margin-left: 20px;
-	}
-}
+//@media (max-width: 500px) {
+// 	.col-sm-12 {
+//		margin-left: 20px;
+//	}
+//}
 
  .row {
    height: auto;
@@ -14,15 +14,15 @@
 
 .container-fluid {
   max-width:100%;
-  max-height:auto;
-  overflow-y: none;
-  overflow-x:none;
+  //max-height:auto;
+//  overflow-y: none;
+//  overflow-x:none;
 	height: auto;
   width: 100%;
 	background-color: $black;
 	background-size: cover;
 	/*margin: auto;*/
-	overflow-y: none;
+//	overflow-y: none;
 }
 
 .container {

@@ -10,10 +10,10 @@ iframe {
 }
 
 @media (max-width: 500px) {
- 	.find2 {
-		position: relative;
-		left: 10px;
-	}
+ 	//.find2 {
+	//	position: relative;
+		//left: 10px;
+	//}
 	.find2 h3 {
 		margin-left: -10px;
 	}
@@ -26,4 +26,10 @@ iframe {
 
 .find2 {
 	opacity:0;
+}
+
+#findSection h3 {
+	@include atLarge {
+		font-size: 30px;
+	}
 }
