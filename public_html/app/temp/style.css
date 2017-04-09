@@ -11,6 +11,9 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: no-repeat center center fixed;
+  background-size: 100%;
+  background-size: cover;
   outline: 0px;
   border: 0px;
   -webkit-transition: all 1s ease-in;
@@ -20,7 +23,11 @@ html, body {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000330}}
+/* Page background-image landscape for iPad 3 */
+/* Page background-image portrait for iPad 3 */
+/* Page background-image landscape for iPad 1/2 */
+/* Page background-image portrait for iPad 1/2 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/base\/_reset\.scss}line{font-family:\0000393}}
 img {
   -moz-min-height: 100%;
   -moz-min-width: 100%;
@@ -818,11 +825,17 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   overflow: none;
 }
+@media (min-width: 1010px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\000031}}
+  .section {
+    background-attachment: fixed;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000317}}
 .margin1 {
   position: relative;
   bottom: 100px;
@@ -830,24 +843,24 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000324}}
   .margin1 {
     margin-bottom: 100px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000329}}
 .titles {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_mainpage\.scss}line{font-family:\0000333}}
 .headline {
   opacity: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/layout\/_subsect\.scss}line{font-family:\000031}}
 .subsect {
-  height: 15%;
+  height: 25%;
   background-color: #000;
   clear: both;
 }
@@ -894,14 +907,14 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/indexpage\/_drinksection\.scss}line{font-family:\000032}}
 #drinkSection {
+  height: auto;
+  background-image: url("../../app/assets/images/bandphoto1.jpeg");
   background-size: cover;
   background-position: center center;
-  background-image: url("../../app/assets/images/bandphoto1.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\000032}}
@@ -910,11 +923,11 @@ a {
   padding: 4px 8px;
   overflow: none;
   font-weight: 100;
+  background-image: url("../../app/assets/images/function/eventroom1.jpg");
   background-size: cover;
   background-position: center center;
-  background-image: url("../../app/assets/images/function/eventroom1.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1048,44 +1061,43 @@ iframe {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_kidssection\.scss}line{font-family:\000031}}
 #kidsSection {
-  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-  background: url("../../app/assets/images/food/kidsmeal1.jpg") no-repeat center center fixed;
+  height: auto;
+  background: url("../../app/assets/images/food/kidsmeal1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100%;
-  min-width: 100%;
   position: relative;
-  background-attachment: fixed;
   text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_dessertsection\.scss}line{font-family:\000031}}
 #dessertSection {
-  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-  background: url("../../app/assets/images/food/dessert1.jpg") no-repeat center center fixed;
+  height: auto;
+  background: url("../../app/assets/images/food/dessert1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100%;
-  min-width: 100%;
   position: relative;
-  background-attachment: fixed;
   text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_baguettesection\.scss}line{font-family:\000031}}
 #baguetteSection {
-  min-height: 100%;
-  min-width: 100%;
+  height: auto;
   text-shadow: 0px 1px 1px #000;
+  background-image: url("../../app/assets/images/food/wrap1.jpg");
   background-size: cover;
   background-position: center center;
-  background-image: url("../../app/assets/images/food/wrap1.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1093,37 +1105,35 @@ iframe {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_breakfastsection\.scss}line{font-family:\000031}}
 #breakfastSection {
+  height: auto;
+  text-shadow: 0px 1px 1px #000;
+  background-image: url("../../app/assets/images/food/breakfast2.png");
   background-size: cover;
   background-position: center center;
-  background-image: url("../../app/assets/images/food/breakfast1.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 100%;
-  min-width: 100%;
-  text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_mainsection\.scss}line{font-family:\000031}}
 #mainSection {
-  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-  background: url("../../app/assets/images/food/fishnchips.jpg") no-repeat center center fixed;
+  height: auto;
+  background: url("../../app/assets/images/food/fishnchips2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-width: 100%;
   position: relative;
-  background-attachment: fixed;
   text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_startersection\.scss}line{font-family:\000031}}
 #starterSection {
-  /*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-  background-image: url("../images/starter1.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1135,17 +1145,16 @@ iframe {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_burger\.scss}line{font-family:\000031}}
 #burgerSection {
-  min-height: 100%;
-  min-width: 100%;
-  text-shadow: 0px 1px 1px #000;
+  height: auto;
+  background-image: url("../../app/assets/images/food/burgerpic.jpg");
   background-size: cover;
   background-position: center center;
-  background-image: url("../../app/assets/images/food/burgerpic.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_menublocks\.scss}line{font-family:\000033}}

@@ -1,12 +1,13 @@
 #mainSection {
-	/*background-image: url("https://unsplash.com/search/music?photo=wzj86-5JVcM");*/
-	background: url("../../app/assets/images/food/fishnchips.jpg") no-repeat center center fixed;
+	height:auto;
+	background: url("../../app/assets/images/food/fishnchips2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-width: 100%;
 	position: relative;
-	background-attachment: fixed;
-	text-shadow: 0px 1px 1px #000;
+	text-shadow: 0px 1px 1px $black;
 }

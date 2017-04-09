@@ -7,8 +7,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	overflow: none;
+	@include atLarge {
+		background-attachment: fixed;
+	}
 }
 
 .margin1 {
