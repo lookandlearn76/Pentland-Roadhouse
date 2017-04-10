@@ -43,6 +43,10 @@
 	width: 100%;
 	margin-left: 0;
 	left: 0;
+	bottom: -30px;
+	@include atSmall {
+		bottom: 5px;
+	}
 }
 
 .carousel .left.carousel-control .right.carousel-control {
@@ -72,11 +76,12 @@
 }
 
 .glyphicon {
-	top: 0px;
-	margin-bottom: 25px;
+	top: 15px;
+	margin-bottom: 20px;
 	font-size: 2.5rem;
 	@include atSmall {
-		margin-bottom: 45px;
+		margin-bottom: 55px;
+		top: 0px;
 	}
 
 

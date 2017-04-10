@@ -11,41 +11,43 @@
 }
 
 .titles2 {
+	font-size: 1.3rem;
 	text-align: center;
 	//font-size: .5rem;
-	background-color: $white;
-	//color: $black;
+	color: $white;
+	text-shadow: 0px 1px 1px $black;
 //	width: 100%;
 	position: relative;
 /*	bottom: -80px;*/
 /*	left: 10px;*/
 
 	top: 70px;
-	opacity: 0.70;
+	opacity: 1;
 	padding: 5px;
 	margin: 0 auto 20px auto;
-	border: 2px solid $white;
+	//border: 2px solid $white;
 }
 
 .titles2 h2 {
 	@include atSmall {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 }
 
 .titles3, .titles4 {
-	background-color: $white;
-	color: $black;
+	//background-color: $white;
+	color: $white;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 300;
 	width: 100%;
 	height: auto;
 	position: relative;
-	top: 290px;
-	opacity: 0.70;
+	//top: 290px;
+	opacity: .9;
 	padding: 5px;
 	margin: 0 auto 20px auto;
-	border: 2px solid $white;
+	text-shadow: 0px 1px 1px $black;
+	//border: 2px solid $white;
 }
 
 
@@ -59,10 +61,7 @@
 
 
 .titles4 {
-	top: 600px;
-	@include atMedium {
-		top:700px;
-	}
+	top: 250px;
 }
 
 .titles4 h2 {
@@ -100,7 +99,7 @@
 
 @media (min-width: 1024px) and (max-width: 1919px) {
 	.titles3 {
-		top: 625px;
+		top: 580px;
 		font-size: 2.5em;
 	}
 }
@@ -114,10 +113,10 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-	.titles4 {
-		top: 320px;
+	//.titles4 {
+	//	top: 320px;
 		/*font-size: .5rem;*/
-	}
+	//}
 	.titles4 h2 {
 		font-size: 1.5rem;
 	}
@@ -135,7 +134,7 @@
 
 @media screen and (min-width: 799px) and (max-width: 1365px) {
 	.titles4 {
-		top: 380px;
+		top: 650px;
 		/*font-size: .5rem;*/
 	}
 	.titles4 h2 {
@@ -189,15 +188,15 @@
 
 @media (width: 320px) and (height: 568px) {
 	.titles2 h2 {
-		font-size: 2.0rem;
+		font-size: 1.1rem;
 	}
 	.titles3 {
-		top: 290px;
+		top: 450px;
 		font-size: medium;
 	}
-	.titles4 {
-		top: 390px;
-	}
+	//.titles4 {
+	//	top: 300px;
+	//}
 	.titles4 h2 {
 		margin-top: -2px;
 		margin-bottom: -10px;
@@ -214,7 +213,7 @@
 		font-size: medium;
 	}
 	.titles4 {
-		top: 450px;
+		top: 350px;
 	}
 	.titles4 h2 {
 		margin-top: -2px;
@@ -232,7 +231,7 @@
 		font-size: medium;
 	}
 	.titles4 {
-		top: 500px;
+		top: 430px;
 	}
 	.titles4 h2 {
 		margin-top: -2px;
@@ -260,7 +259,7 @@
 
 @media (width: 1024px) and (height: 768px) {
 	.titles3 {
-		top: 450px;
+		top: 400px;
 		font-size: medium;
 	}
 	.titles4 {

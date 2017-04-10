@@ -272,27 +272,34 @@ button.navbar-toggle.collapsed {
   width: 100%;
   margin-left: 0;
   left: 0;
+  bottom: -30px;
+}
+@media (min-width: 530px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000342}}
+  .carousel-indicators {
+    bottom: 5px;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000352}}
 .carousel .left.carousel-control .right.carousel-control {
   height: 100%;
 }
 
 /* fade on slider */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000356}}
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000361}}
 .carousel-fade .carousel-inner .active {
   opacity: 1 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000364}}
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
@@ -300,51 +307,52 @@ button.navbar-toggle.collapsed {
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000370}}
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000374}}
 .carousel-fade .carousel-control {
   z-index: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000378}}
 .glyphicon {
-  top: 0px;
-  margin-bottom: 25px;
+  top: 15px;
+  margin-bottom: 20px;
   font-size: 2.5rem;
 }
 @media (min-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000378}}
   .glyphicon {
-    margin-bottom: 45px;
+    margin-bottom: 55px;
+    top: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000388}}
 .glyphicon-star-empty {
   margin-bottom: 0px;
 }
 @media (min-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000388}}
   .glyphicon-star-empty {
     margin-bottom: 50px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000397}}
 .carousel-caption {
   bottom: -30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\00003101}}
 ol {
   margin-bottom: 40px;
 }
 @media (min-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_carousel\.scss}line{font-family:\00003101}}
   ol {
     margin-bottom: 60px;
   }
@@ -398,70 +406,63 @@ ol {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000313}}
 .titles2 {
+  font-size: 1.3rem;
   text-align: center;
-  background-color: #fff;
+  color: #fff;
+  text-shadow: 0px 1px 1px #000;
   position: relative;
   /*	bottom: -80px;*/
   /*	left: 10px;*/
   top: 70px;
-  opacity: 0.70;
+  opacity: 1;
   padding: 5px;
   margin: 0 auto 20px auto;
-  border: 2px solid #fff;
 }
 
 @media (min-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000331}}
   .titles2 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000337}}
 .titles3, .titles4 {
-  background-color: #fff;
-  color: #000;
+  color: #fff;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   width: 100%;
   height: auto;
   position: relative;
-  top: 290px;
-  opacity: 0.70;
+  opacity: .9;
   padding: 5px;
   margin: 0 auto 20px auto;
-  border: 2px solid #fff;
+  text-shadow: 0px 1px 1px #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000355}}
 .titles3 h3 {
   font-size: 18px;
 }
 @media (min-width: 530px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000355}}
   .titles3 h3 {
     font-size: 3rem;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000363}}
 .titles4 {
-  top: 600px;
-}
-@media (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000361}}
-  .titles4 {
-    top: 700px;
-  }
+  top: 250px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000367}}
 .titles4 h2 {
   padding-bottom: 25px;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000372}}
 .titles5 {
   color: white;
   margin-top: auto;
@@ -469,64 +470,59 @@ ol {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000379}}
 .titles5 p {
   font-size: 1.5rem;
 }
 
 @media (min-width: 799px) and (max-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\0000394}}
   .titles3 {
     top: 400px;
     font-size: medium;
   }
 }
 @media (min-width: 1024px) and (max-width: 1919px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003101}}
   .titles3 {
-    top: 625px;
+    top: 580px;
     font-size: 2.5em;
   }
 }
 @media screen and (min-width: 1920px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003108}}
   .titles3 {
     top: 900px;
     font-size: 3.5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003117}}
-  .titles4 {
-    top: 320px
-    /*font-size: .5rem;*/
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003121}}
+  /*font-size: .5rem;*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003120}}
   .titles4 h2 {
     font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 414px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003126}}
   .titles4 {
     top: 360px
     /*font-size: .5rem;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003130}}
   .titles4 h2 {
     font-size: 2rem;
   }
 }
 @media screen and (min-width: 799px) and (max-width: 1365px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003136}}
   .titles4 {
-    top: 380px
+    top: 650px
     /*font-size: .5rem;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003140}}
   .titles4 h2 {
     font-size: 2rem;
   }
@@ -541,7 +537,7 @@ ol {
 /*}*/
 /*}*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003160}}
   #roomhireSection .titles4 {
     position: relative;
     top: 400px;
@@ -549,193 +545,188 @@ ol {
   }
 }
 @media (width: 320px) and (height: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003169}}
   .titles2 h2 {
     font-size: 1.75rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003173}}
   .titles3 {
     top: 270px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003176}}
   .titles3 h3 {
     font-size: 1.75rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003180}}
   .titles4 {
     top: 320px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003183}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 320px) and (height: 568px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003190}}
   .titles2 h2 {
-    font-size: 2.0rem;
+    font-size: 1.1rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003193}}
   .titles3 {
-    top: 290px;
+    top: 450px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003198}}
-  .titles4 {
-    top: 390px;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003200}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 375px) and (height: 667px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003207}}
   .titles2 h2 {
     font-size: 2.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003211}}
   .titles3 {
     top: 220px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003215}}
   .titles4 {
-    top: 450px;
+    top: 350px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003218}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 414px) and (height: 736px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003225}}
   .titles2 h2 {
     font-size: 2.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003229}}
   .titles3 {
     top: 490px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003233}}
   .titles4 {
-    top: 500px;
+    top: 430px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003236}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 800px) and (height: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003243}}
   .titles2 h2 {
     font-size: 2.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003247}}
   .titles3 {
     top: 490px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003251}}
   .titles4 {
     top: 460px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003254}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 1024px) and (height: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003262}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003261}}
   .titles3 {
-    top: 450px;
+    top: 400px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003265}}
   .titles4 {
     top: 600px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003268}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 1366px) and (height: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003275}}
   .titles3 {
     top: 800px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003279}}
   .titles3 h3 {
     font-size: 3.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003282}}
   .titles2 h2 {
     font-size: 3.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003285}}
   .titles4 {
     top: 800px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003288}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
   }
 }
 @media (width: 1920px) and (height: 1080px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003295}}
   .titles3 {
     top: 800px;
     font-size: medium;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003299}}
   .titles3 h3 {
     font-size: 4.5rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003302}}
   .titles2 h2 {
     font-size: 5.0rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003305}}
   .titles4 {
     top: 850px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/components\/_titles\.scss}line{font-family:\00003308}}
   .titles4 h2 {
     margin-top: -2px;
     margin-bottom: -10px;
@@ -915,6 +906,13 @@ a {
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  margin-bottom: 70px;
+}
+@media (min-width: 530px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/indexpage\/_drinksection\.scss}line{font-family:\000032}}
+  #drinkSection {
+    margin-bottom: 100px;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\000032}}
@@ -933,11 +931,11 @@ a {
   -o-background-size: cover;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/indexpage\/_roomhiresection\.scss}line{font-family:\0000322}}
   #roomhireSection .titles4 {
     position: relative;
-    top: 630px;
+    top: 510px;
     overflow: none;
   }
 }
@@ -1106,7 +1104,6 @@ iframe {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_breakfastsection\.scss}line{font-family:\000031}}
 #breakfastSection {
   height: auto;
-  text-shadow: 0px 1px 1px #000;
   background-image: url("../../app/assets/images/food/breakfast2.png");
   background-size: cover;
   background-position: center center;
@@ -1115,6 +1112,7 @@ iframe {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  text-shadow: 0px 1px 1px #000;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/micahhayden\/Desktop\/Sites\/roadhouse\/public_html\/app\/assets\/sass\/pages\/menupage\/_mainsection\.scss}line{font-family:\000031}}
